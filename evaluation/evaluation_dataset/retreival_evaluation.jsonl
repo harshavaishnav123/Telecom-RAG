@@ -1,0 +1,550 @@
+{"question": "What is the formal definition of a User Equipment (UE) according to 3GPP nomenclature?", "spec": "21.905"}
+{"question": "How does 3GPP define a Public Land Mobile Network (PLMN) and its structural components?", "spec": "21.905"}
+{"question": "What does the acronym eNodeB stand for and how is its role defined in the telecommunications vocabulary?", "spec": "21.905"}
+{"question": "Define Quality of Service (QoS) within the vocabulary framework of 3GPP standards.", "spec": "21.905"}
+{"question": "What is the technical meaning and structural composition of the abbreviation IMSI?", "spec": "21.905"}
+{"question": "How is the term 'GPRS Core Network' defined in the context of legacy architectural evolution?", "spec": "21.905"}
+{"question": "What is the official 3GPP definition for a 'Closed Subscriber Group' (CSG)?", "spec": "21.905"}
+{"question": "Define the term 'Dual Connectivity' as stated in the master 3GPP vocabulary document.", "spec": "21.905"}
+{"question": "What is the formal vocabulary definition of a 'Home PLMN' (HPLMN)?", "spec": "21.905"}
+{"question": "How is 'Network Slicing' broadly defined within the general 3GPP vocabulary?", "spec": "21.905"}
+{"question": "What architecture is defined by NWDAF for data collection and analytics consumer interaction?", "spec": "23.288"}
+{"question": "How does the Network Data Analytics Function (NWDAF) interact with the Policy Control Function (PCF)?", "spec": "23.288"}
+{"question": "Describe the metadata parameters required for slice-specific load analytics reporting in NWDAF.", "spec": "23.288"}
+{"question": "What are the specific inputs needed by NWDAF to calculate UE mobility analytics?", "spec": "23.288"}
+{"question": "How does NWDAF collect user plane performance data from the User Plane Function (UPF)?", "spec": "23.288"}
+{"question": "Explain the interaction between NWDAF and the Application Function (AF) for predictive routing.", "spec": "23.288"}
+{"question": "What is the protocol mechanism used by an NWDAF instance to register its analytics capabilities in the NRF?", "spec": "23.288"}
+{"question": "How does NWDAF handle abnormal behavior analytics generation for specific groups of UEs?", "spec": "23.288"}
+{"question": "Describe the data collection framework used by NWDAF via the Management Data Analytics Function (MDAF).", "spec": "23.288"}
+{"question": "What parameters are defined for NWDAF to provide Congestion Analytics for specific tracking areas?", "spec": "23.288"}
+{"question": "What are the core framework reference points and general requirements defined for Multi-access Edge Computing?", "spec": "MEC-003"}
+{"question": "How is the Mp1 reference point structured between the MEC platform and MEC applications?", "spec": "MEC-003"}
+{"question": "Describe the logical architecture of the MEC orchestrator and its relation to NFV MANO.", "spec": "MEC-003"}
+{"question": "What security perimeters and trust boundaries are specified for multi-tenancy in MEC deployment?", "spec": "MEC-003"}
+{"question": "Detail the functional blocks of the MEC platform manager as defined in the ETSI framework.", "spec": "MEC-003"}
+{"question": "How does ETSI MEC define the hosting infra reference point (Mm6) for virtualization infrastructure managers?", "spec": "MEC-003"}
+{"question": "What are the operational requirements for application lifecycle management over the Mm1 reference point?", "spec": "MEC-003"}
+{"question": "Describe the functional interaction between the User Application Proxy and the MEC orchestrator.", "spec": "MEC-003"}
+{"question": "How are traffic steering rules structured at the MEC platform layer to route user plane data?", "spec": "MEC-003"}
+{"question": "What are the structural requirements for DNS handling configurations within a MEC platform host?", "spec": "MEC-003"}
+{"question": "What RESTful API resources are defined for the Radio Network Information Service (RNIS)?", "spec": "MEC-012"}
+{"question": "How does a MEC application subscribe to cell change notifications via the RNIS API?", "spec": "MEC-012"}
+{"question": "What are the data structures for transmitting UE measurement reports over the MEC RNIS interface?", "spec": "MEC-012"}
+{"question": "Detail the JSON payload structure for an S1-U bearer information query response in RNIS.", "spec": "MEC-012"}
+{"question": "How is the 'PlmnInfo' data model constructed inside the ETSI MEC Radio Network Information API?", "spec": "MEC-012"}
+{"question": "Describe the 'RabEstNotification' trigger conditions and its mandatory fields in MEC-012.", "spec": "MEC-012"}
+{"question": "What structural attributes define the Radio Network Information Service 'CellChangeNotification' schema?", "spec": "MEC-012"}
+{"question": "How can a MEC app fetch specific Layer 2 measurements (e.g., DL packet delay) via RNIS?", "spec": "MEC-012"}
+{"question": "What parameter fields are mapped during an active network handoff notification in the RNIS API?", "spec": "MEC-012"}
+{"question": "Explain the query parameters allowed for filtering target UEs in an associateId lookup via RNIS.", "spec": "MEC-012"}
+{"question": "What base services are offered by the Edge Enablement API over the Mp1 reference point?", "spec": "MEC-011"}
+{"question": "How does a MEC application perform service registration using the MEC platform application enablement API?", "spec": "MEC-011"}
+{"question": "Describe the 'ServiceAvailabilityNotification' structure and payload properties in MEC-011.", "spec": "MEC-011"}
+{"question": "What mechanism is defined for MEC applications to discover available platform services?", "spec": "MEC-011"}
+{"question": "Detail the JSON structure for creating a traffic rule activation request via the Mp1 interface.", "spec": "MEC-011"}
+{"question": "How is the DNAI (Data Network Access Identifier) update notification represented in the Mp1 App Support API?", "spec": "MEC-011"}
+{"question": "What are the required HTTP headers and authorization tokens for a MEC app to notify its ready state?", "spec": "MEC-011"}
+{"question": "Describe the serialization formats supported by the MEC-011 App Enablement service registry.", "spec": "MEC-011"}
+{"question": "How are gracefully terminating application events handled via the Mp1 reference point?", "spec": "MEC-011"}
+{"question": "What data model defines the application mobility services parameters inside the ETSI MEC-011 spec?", "spec": "MEC-011"}
+{"question": "What is the physical layer timing and frame structure for NR systems?", "spec": "38.300"}
+{"question": "How are Bandwidth Parts (BWPs) defined, configured, and dynamically managed in 5G?", "spec": "38.300"}
+{"question": "What is the overall protocol stack architecture for the NR user plane?", "spec": "38.300"}
+{"question": "How does carrier aggregation work across different frequency bands in 5G NR?", "spec": "38.300"}
+{"question": "Describe the Multi-Radio Dual Connectivity (MR-DC) architecture and its core network termination variants.", "spec": "38.300"}
+{"question": "What are the fundamental differences between FDD and TDD operation modes in 5G NR?", "spec": "38.300"}
+{"question": "Explain the concept, allocation rules, and deployment scenarios of Supplementary Uplink (SUL).", "spec": "38.300"}
+{"question": "How does the gNB execute beam management, tracking, and beam failure recovery?", "spec": "38.300"}
+{"question": "What are the QoS flow to Data Radio Bearer (DRB) mapping principles in NG-RAN?", "spec": "38.300"}
+{"question": "How is end-to-end network slicing supported inside the 5G Radio Access Network layers?", "spec": "38.300"}
+{"question": "What are the exact math criteria and thresholds for cell selection in RRC_IDLE mode?", "spec": "38.304"}
+{"question": "How does a UE calculate evaluation criteria and perform intra-frequency cell reselection?", "spec": "38.304"}
+{"question": "What are the explicit rules and priorities for establishing inter-frequency cell reselection?", "spec": "38.304"}
+{"question": "Explain the DRX cycle formulas and paging reception frame checking mechanisms in idle state.", "spec": "38.304"}
+{"question": "What exact triggers cause a transition from RRC_INACTIVE state to RRC_CONNECTED state?", "spec": "38.304"}
+{"question": "How is the RAN-based Notification Area (RNA) updating procedure managed while in inactive mode?", "spec": "38.304"}
+{"question": "What explicit fallback actions are taken if a UE loses coverage while in RRC_INACTIVE state?", "spec": "38.304"}
+{"question": "How does the UE evaluate cell reservation and cell access restrictions based on SIB1 parameters?", "spec": "38.304"}
+{"question": "What are the conditions for a UE to trigger high-mobility state evaluation during cell reselection?", "spec": "38.304"}
+{"question": "How is the cell selection criterion S-parameter calculated for inter-RAT LTE-to-NR cells?", "spec": "38.304"}
+{"question": "How are UE radio access capability parameters structurally categorized and defined?", "spec": "38.306"}
+{"question": "What is the maximum number of supported MIMO layers for a given UE capability category?", "spec": "38.306"}
+{"question": "How does the UE structure and signal its supported frequency bands and band combinations to the gNB?", "spec": "38.306"}
+{"question": "What are the mandatory UE capabilities required for baseband processing and high-order modulation schemes?", "spec": "38.306"}
+{"question": "How does the network evaluate if a UE supports specific fallback mechanisms for carrier aggregation combinations?", "spec": "38.306"}
+{"question": "Describe the processing capabilities and maximum transport block size constraints defined per UE category.", "spec": "38.306"}
+{"question": "What parameter controls whether a UE can support simultaneous transmission of SRS and PUCCH/PUSCH?", "spec": "38.306"}
+{"question": "How are the feature sets for intra-band non-contiguous carrier aggregation signaled by the UE capability transfer?", "spec": "38.306"}
+{"question": "What are the UE power class definitions and corresponding maximum output power tolerances for FR2?", "spec": "38.306"}
+{"question": "How is the maximum bandwidth capability per component carrier validated for different subcarrier spacings?", "spec": "38.306"}
+{"question": "Describe the step-by-step Contention-Based Random Access (CBRA) procedure at the MAC layer.", "spec": "38.321"}
+{"question": "How is the Contention-Free Random Access (CFRA) procedure executed and resource allocated by the MAC layer?", "spec": "38.321"}
+{"question": "What is the detailed format and purpose of the Buffer Status Report (BSR) MAC Control Elements?", "spec": "38.321"}
+{"question": "How does the MAC layer handle Hybrid ARQ (HARQ) entity process management and retransmissions?", "spec": "38.321"}
+{"question": "Explain the exact execution mechanism and token bucket constraints of Logical Channel Prioritization (LCP).", "spec": "38.321"}
+{"question": "What is the functional encoding, bit structure, and timing of the Timing Advance Command MAC CE?", "spec": "38.321"}
+{"question": "How is discontinuous reception (DRX) timers operation handled and updated at the MAC layer?", "spec": "38.321"}
+{"question": "Detail the activation and deactivation execution of SCells using specific MAC Control Elements.", "spec": "38.321"}
+{"question": "What are the rules governing Power Headroom Reporting (PHR) generation and its structural MAC CE formats?", "spec": "38.321"}
+{"question": "How does the MAC layer process and interpret the Downlink Assignment Index (DAI) for HARQ feedback?", "spec": "38.321"}
+{"question": "What are the specific operational functions and constraints of RLC Transparent Mode (TM)?", "spec": "38.322"}
+{"question": "How does RLC Unacknowledged Mode (UM) handle PDU segmentation, sequence numbering, and reassembly?", "spec": "38.322"}
+{"question": "Describe the ARQ mechanism, window status tracking, and polling bits used in RLC Acknowledged Mode (AM).", "spec": "38.322"}
+{"question": "What specific state conditions and timer expirations trigger an RLC entity re-establishment procedure?", "spec": "38.322"}
+{"question": "How are RLC status reports generated, what are the payload formats, and how is the ACK_SN evaluated?", "spec": "38.322"}
+{"question": "Explain the state variables maintained by an RLC AM entity for transmit and receive operations.", "spec": "38.322"}
+{"question": "What is the maximum allowed size of an RLC PDU segment and how is the LI (Length Indicator) field utilized?", "spec": "38.322"}
+{"question": "How does the RLC reassembly timer (t-Reassembly) control the out-of-order delivery tracking?", "spec": "38.322"}
+{"question": "Describe the processing of duplicate RLC Data PDUs received by an Acknowledged Mode receiver.", "spec": "38.322"}
+{"question": "What actions does an RLC entity perform when receiving a structural modification request from the upper RRC layer?", "spec": "38.322"}
+{"question": "Explain how PDCP performs robust header compression (ROHC) profiles configuration and state management.", "spec": "38.323"}
+{"question": "What are the exact procedural algorithms for ciphering and deciphering in the PDCP layer?", "spec": "38.323"}
+{"question": "How does PDCP handle integrity protection and verification keys for user plane data bearers?", "spec": "38.323"}
+{"question": "Describe the PDCP sequence number (SN) management, hyper frame number (HFN) synchronization during handover.", "spec": "38.323"}
+{"question": "How does the PDCP layer detect, log, and discard duplicate packets via the RX window mechanism?", "spec": "38.323"}
+{"question": "What are the explicit rules for PDCP status reporting during a delta or full configuration handover?", "spec": "38.323"}
+{"question": "Explain the routing and duplication mechanisms within PDCP for split bearers in DC configurations.", "spec": "38.323"}
+{"question": "What parameters trigger the PDCP discard timer and what actions occur when it expires?", "spec": "38.323"}
+{"question": "Describe the structure of a PDCP Control PDU used for interspersed ROHC feedback.", "spec": "38.323"}
+{"question": "How is integrity protection executed for the 5G NR user plane on a per-DRB basis?", "spec": "38.323"}
+{"question": "What crucial operational and frame configuration parameters are carried in the Master Information Block (MIB)?", "spec": "38.331"}
+{"question": "Detail the full content fields, scheduling periods, and structural purpose of System Information Block Type 1 (SIB1).", "spec": "38.331"}
+{"question": "Explain the step-by-step ASN.1 messaging structures of an RRC Connection Setup procedure.", "spec": "38.331"}
+{"question": "How is an RRC Reconfiguration message utilized to add, modify, or release radio bearers and cell groups?", "spec": "38.331"}
+{"question": "What is an A3 measurement event, what exact mathematical formulas and offset criteria trigger its evaluation?", "spec": "38.331"}
+{"question": "How does the network initiate an RRC Connection Release message to transition the UE to idle or inactive states?", "spec": "38.331"}
+{"question": "Describe the RRC Connection Resume procedure including security key verification from the RRC_INACTIVE state.", "spec": "38.331"}
+{"question": "What explicit radio failure and beam loss scenarios trigger the transmission of an RRC Reestablishment Request?", "spec": "38.331"}
+{"question": "How does the UE format, filter, and report measurement results (RSRP/RSRQ/SINR) to the gNB?", "spec": "38.331"}
+{"question": "What is the structural composition and configuration purpose of the CellGroupConfig Information Element?", "spec": "38.331"}
+{"question": "What is the structural division of physical-layer cell identities (PCI) into groups and sub-groups in 5G NR?", "spec": "38.211"}
+{"question": "How is the physical structure of the Synchronization Signal Block (SSB) mapped onto the time-frequency grid?", "spec": "38.211"}
+{"question": "Describe the mathematical sequence generation and resource element mapping for the NR Demodulation Reference Signal (DM-RS) of PDSCH.", "spec": "38.211"}
+{"question": "What are the structural definitions of resource grids, subcarrier spacings, and cyclic prefix types in FR1 and FR2?", "spec": "38.211"}
+{"question": "How is the sequence for the Phase-Tracking Reference Signal (PT-RS) generated and mapped in the physical layer?", "spec": "38.211"}
+{"question": "Describe the physical construction, sequence generation, and format variations of the Physical Random Access Channel (PRACH).", "spec": "38.211"}
+{"question": "How does 3GPP define the antenna port concept and physical mapping to virtualized radiation elements?", "spec": "38.211"}
+{"question": "What is the specific spatial relation and quasi-colocation (QCL) framework definition for downlink reference signals?", "spec": "38.211"}
+{"question": "Describe the sequence generation mechanism for Channel State Information Reference Signals (CSI-RS).", "spec": "38.211"}
+{"question": "How are physical uplink control channel (PUCCH) formats 0 through 4 structurally mapped to resource elements?", "spec": "38.211"}
+{"question": "What channel coding scheme is specified for Polar coding of Downlink Control Information (DCI)?", "spec": "38.212"}
+{"question": "Describe the Low-Density Parity-Check (LDPC) coding block segmentation and rate matching flow for the PDSCH transport channel.", "spec": "38.212"}
+{"question": "How is Uplink Control Information (UCI) mapped and multiplexed into a PUSCH transmission payload?", "spec": "38.212"}
+{"question": "What are the structural fields, sizes, and formats defined for DCI Format 1_0 and Format 1_1?", "spec": "38.212"}
+{"question": "Explain the Polar code lifting, interleaving, and bit-selection operations used for the PBCH channel.", "spec": "38.212"}
+{"question": "How does the physical layer handle code block group (CBG) based transmission and retransmission encoding?", "spec": "38.212"}
+{"question": "What are the CRC polynomial sizes and initialization parameters for transport blocks and code blocks?", "spec": "38.212"}
+{"question": "Describe the structural composition and fields of DCI Format 0_0 and 0_1 used for uplink scheduling.", "spec": "38.212"}
+{"question": "How are channel coding procedures executed for small payload sizes in PUCCH control signalling?", "spec": "38.212"}
+{"question": "What are the encoding differences between broadcast control information and dedicated dynamic control signals?", "spec": "38.212"}
+{"question": "How does a UE monitor the Physical Downlink Control Channel (PDCCH) using Search Space sets and CORESETS?", "spec": "38.213"}
+{"question": "Describe the physical layer control loop procedure for Uplink Power Control on PUSCH, PUCCH, and SRS.", "spec": "38.213"}
+{"question": "What are the step-by-step procedures for the UE to report CSI feedback, including CQI, PMI, and RI?", "spec": "38.213"}
+{"question": "How is the dynamic HARQ-ACK codebook constructed based on downlink assignments and code block groups?", "spec": "38.213"}
+{"question": "Explain the physical layer procedure for random access preamble transmission and Random Access Response (RAR) monitoring.", "spec": "38.213"}
+{"question": "How does the UE determine the active downlink and uplink BWP based on received control indications?", "spec": "38.213"}
+{"question": "Detail the physical layer interactions and timing relationships for PDSCH reception and corresponding HARQ feedback.", "spec": "38.213"}
+{"question": "What are the UE monitoring rules for slot-based and non-slot-based scheduling configurations?", "spec": "38.213"}
+{"question": "Describe the beam failure recovery control signaling procedures and timers at the physical layer.", "spec": "38.213"}
+{"question": "How does the physical layer manage multi-cell scheduling and cross-carrier control channel operations?", "spec": "38.213"}
+{"question": "What are the physical layer procedures for mapping and transmitting the Physical Downlink Shared Channel (PDSCH)?", "spec": "38.214"}
+{"question": "How is the modulation order and target code rate determined from the MCS tables for PDSCH and PUSCH?", "spec": "38.214"}
+{"question": "Describe the spatial multiplexing and MIMO transmission configurations supported for physical uplink shared channels.", "spec": "38.214"}
+{"question": "How does a UE interpret the Resource Allocation Type 0 and Type 1 parameters for frequency domain allocation?", "spec": "38.214"}
+{"question": "What are the rules and configuration parameters for time-domain resource allocation of PDSCH/PUSCH?", "spec": "38.214"}
+{"question": "Explain the CSI reporting configurations for Type I and Type II codebooks under multi-antenna setups.", "spec": "38.214"}
+{"question": "How is the transport block size (TBS) calculated based on allocated REs and layers at the physical layer?", "spec": "38.214"}
+{"question": "Describe the physical layer procedures for codebook-based and non-codebook-based uplink transmissions.", "spec": "38.214"}
+{"question": "How does the UE process and track Phase-Tracking Reference Signals (PT-RS) for phase noise mitigation?", "spec": "38.214"}
+{"question": "What are the physical layer rules for scheduling and transmitting multiple PDSCHs using multi-TRP setups?", "spec": "38.214"}
+{"question": "What structural specifications define the Open Fronthaul Control, User, and Synchronization Plane protocols in Release 5?", "spec": "CUS-R005"}
+{"question": "How is the U-plane section extension defined for beamforming weights transfer in the CUS-Plane?", "spec": "CUS-R005"}
+{"question": "Describe the application-layer fragmentation mechanism for heavy IQ data frames over eCPRI in CUS-R005.", "spec": "CUS-R005"}
+{"question": "What message formats are defined for Real-Time Control data stream exchange between O-DU and O-RU?", "spec": "CUS-R005"}
+{"question": "How is the synchronization topology and state tracking achieved via PTP profiles inside CUS-Plane?", "spec": "CUS-R005"}
+{"question": "Detail the section types used for dynamic scheduling and beamforming control signaling in CUS-R005.", "spec": "CUS-R005"}
+{"question": "How are compression parameters (e.g., Block Floating Point) formatted inside the U-Plane headers?", "spec": "CUS-R005"}
+{"question": "What fields compose the Radio Application Header within the O-RAN CUS-Plane frame format?", "spec": "CUS-R005"}
+{"question": "How are PRACH over-the-fronthaul configuration and data bursts represented in the CUS-Plane spec?", "spec": "CUS-R005"}
+{"question": "What error codes and telemetry headers are reserved for diagnostic testing on the open fronthaul data stream?", "spec": "CUS-R005"}
+{"question": "What RAN Control functionalities and information elements are exposed to the RIC by the E2SM-RC service model?", "spec": "E2SM-RC-R005"}
+{"question": "How does E2SM-RC handle and format event trigger definitions for RIC subscriptions in Release 5?", "spec": "E2SM-RC-R005"}
+{"question": "Describe the structure, mandatory parameters, and optional fields of the RAN Control Header in E2SM-RC-R005.", "spec": "E2SM-RC-R005"}
+{"question": "What specific UE context information and bearer variables can be read or modified via E2SM-RC-R005?", "spec": "E2SM-RC-R005"}
+{"question": "How does E2SM-RC-R005 facilitate real-time RAN control use cases like traffic steering and cell resource allocation?", "spec": "E2SM-RC-R005"}
+{"question": "Detail the ASN.1 structure for a 'ControlOutcome' message within the E2SM-RC-R005 framework.", "spec": "E2SM-RC-R005"}
+{"question": "What parameter choices exist for Call Process Breakpoints inside the E2SM-RC trigger mechanism?", "spec": "E2SM-RC-R005"}
+{"question": "How are target cell identifiers represented inside an E2SM-RC mobility management control message?", "spec": "E2SM-RC-R005"}
+{"question": "What are the formatting differences between UE-level and Cell-level control parameters in E2SM-RC-R005?", "spec": "E2SM-RC-R005"}
+{"question": "Explain how the E2SM-RC service model maps 3GPP RRC reconfiguration parameters to its internal structures.", "spec": "E2SM-RC-R005"}
+{"question": "What types of policy distribution interfaces and transport parameters are defined in the A1 Type Definitions?", "spec": "A1TD-R005"}
+{"question": "How is the A1 Policy Request JSON schema structured for traffic steering policy injection?", "spec": "A1TD-R005"}
+{"question": "What data definitions govern the transfer of enrichment information payloads from Non-RT RIC over A1?", "spec": "A1TD-R005"}
+{"question": "Describe the HTTP REST response status codes and schema definitions for A1 policy feedback loops.", "spec": "A1TD-R005"}
+{"question": "How does the A1TD-R005 spec define the policy status reporting schema for transient network conditions?", "spec": "A1TD-R005"}
+{"question": "What unique identifiers are allocated to A1 Policy Types and how are versioning scopes managed?", "spec": "A1TD-R005"}
+{"question": "Detail the JSON structure for a Quality of Experience (QoS) targeting policy in the A1TD spec.", "spec": "A1TD-R005"}
+{"question": "What schema definitions are enforced for handling error objects within A1TD-R005 communication failures?", "spec": "A1TD-R005"}
+{"question": "How are scope identifiers (e.g., slice ID, cell ID) modeled inside the A1 Policy Type Schema?", "spec": "A1TD-R005"}
+{"question": "What fields are defined to enforce temporary validity periods or schedules in an A1 policy schema?", "spec": "A1TD-R005"}
+{"question": "What is the procedure for establishing an E2 setup between the Near-RT RIC and an E2 Node under release 4 rules?", "spec": "E2AP-R004"}
+{"question": "How does the Near-RT RIC initiate, format, and serialize an E2 Subscription Request message in E2AP-R004?", "spec": "E2AP-R004"}
+{"question": "Describe the transactional steps and message flows involved in the E2 Node Configuration Update procedure.", "spec": "E2AP-R004"}
+{"question": "How are RIC Control requests formulated, executed, and acknowledged over the E2 interface in E2AP-R004?", "spec": "E2AP-R004"}
+{"question": "What specific network layer and application error conditions cause an E2 Error Indication to be triggered?", "spec": "E2AP-R004"}
+{"question": "Explain the difference between an E2 Subscription Delete Request and an E2 Subscription Delete Modification.", "spec": "E2AP-R004"}
+{"question": "What ASN.1 representation defines the RIC Action ID and Criticality parameters within E2AP-R004?", "spec": "E2AP-R004"}
+{"question": "Describe the structural encoding of a RIC Indication message and its payload embedding rules.", "spec": "E2AP-R004"}
+{"question": "How does E2AP-R004 handle multiple concurrent message transactions using the Transaction ID field?", "spec": "E2AP-R004"}
+{"question": "What are the rules for E2 node behavior when receiving a malformed or out-of-sequence E2AP control message?", "spec": "E2AP-R004"}
+{"question": "What are the core logical components, deployment models, and internal orchestrators of the Non-Real-Time RIC?", "spec": "Non-RT-RIC-ARCH-R004"}
+{"question": "How does the Non-Real-Time RIC interact with and manage the lifecycle of rApps in Release 4?", "spec": "Non-RT-RIC-ARCH-R004"}
+{"question": "Explain the data lake storage components and analytics frameworks embedded inside the Non-RT RIC architecture.", "spec": "Non-RT-RIC-ARCH-R004"}
+{"question": "What interface protocol stacks connect the Non-RT RIC core to external SMO service registries?", "spec": "Non-RT-RIC-ARCH-R004"}
+{"question": "Describe the security controls and RBAC mechanisms for rApps operating inside the Non-RT RIC framework.", "spec": "Non-RT-RIC-ARCH-R004"}
+{"question": "How is the R1 interface logical coordination structured inside the Non-RT-RIC internal architecture?", "spec": "Non-RT-RIC-ARCH-R004"}
+{"question": "What structural blocks handle the translation of business intents into A1 policies within Non-RT-RIC?", "spec": "Non-RT-RIC-ARCH-R004"}
+{"question": "Describe the service exposure framework designed for third-party rApp integration in Release 4.", "spec": "Non-RT-RIC-ARCH-R004"}
+{"question": "How does the Non-RT-RIC architecture handle long-term configuration data loops from the O-CU/O-DU nodes?", "spec": "Non-RT-RIC-ARCH-R004"}
+{"question": "What are the coordination mechanisms to prevent conflict between multiple active rApps over the same RAN resource?", "spec": "Non-RT-RIC-ARCH-R004"}
+{"question": "Detail the internal architecture, messaging infrastructure, and real-time database components of the Near-Real-Time RIC.", "spec": "RICARCH-R005"}
+{"question": "How are xApps deployed, securely registered, and dynamically managed within the Near-RT RIC platform?", "spec": "RICARCH-R005"}
+{"question": "What shared data management, SDL (Shared Data Layer), and database services are provided within RICARCH-R005?", "spec": "RICARCH-R005"}
+{"question": "Describe the internal routing manager functionality and low-latency message bus specs within Near-RT RIC.", "spec": "RICARCH-R005"}
+{"question": "How are conflicts resolved between opposing control commands generated by separate xApps in RICARCH-R005?", "spec": "RICARCH-R005"}
+{"question": "What core logging, tracing, and metrics collection APIs are exposed to xApps by the platform?", "spec": "RICARCH-R005"}
+{"question": "Describe the lifecycle management actions (Install, Upgrade, Terminate) of xApps via the Near-RT RIC framework.", "spec": "RICARCH-R005"}
+{"question": "How does the Near-RT RIC architecture protect sensitive UE context keys inside the Shared Data Layer?", "spec": "RICARCH-R005"}
+{"question": "What southbound termination framework is specified for scaling multiple E2 connections into the messaging bus?", "spec": "RICARCH-R005"}
+{"question": "Explain the isolation barriers between platform services and user-space xApps in RICARCH-R005.", "spec": "RICARCH-R005"}
+{"question": "Explain the role and high-level structural framework of the Service Management and Orchestration (SMO) platform.", "spec": "SMO-ARCH-R005"}
+{"question": "How does the SMO architecture interface with cloud infrastructure management systems via the O2 interface?", "spec": "SMO-ARCH-R005"}
+{"question": "Detail the configuration management and network inventory tracking engines defined in SMO-ARCH-R005.", "spec": "SMO-ARCH-R005"}
+{"question": "What functional blocks inside the SMO handle multi-vendor O-RU configuration and management over O1?", "spec": "SMO-ARCH-R005"}
+{"question": "Describe the structural interactions between the SMO analytics engine and external corporate OSS/BSS systems.", "spec": "SMO-ARCH-R005"}
+{"question": "How is end-to-end slice provisioning orchestrated across O-CU and O-DU nodes by the SMO engine?", "spec": "SMO-ARCH-R005"}
+{"question": "What fault management mechanisms and event collection buses are standardized in SMO-ARCH-R005?", "spec": "SMO-ARCH-R005"}
+{"question": "Describe the logical decomposition of the O-RAN topology management system within the SMO architecture.", "spec": "SMO-ARCH-R005"}
+{"question": "How does SMO manage software upgrade rollouts for large fleets of O-DU nodes over open interfaces?", "spec": "SMO-ARCH-R005"}
+{"question": "What are the security architecture principles for cross-domain orchestration links inside the SMO?", "spec": "SMO-ARCH-R005"}
+{"question": "What functional and operational requirements are established for O-RAN traffic steering use cases in Release 5?", "spec": "Use-Case-Requirements-R005"}
+{"question": "Describe the Key Performance Indicators (KPIs) required to validate a successful slice-assurance use case.", "spec": "Use-Case-Requirements-R005"}
+{"question": "What are the system constraints and required metrics for executing energy saving workflows in the RAN?", "spec": "Use-Case-Requirements-R005"}
+{"question": "Detail the specific network telemetry metrics needed to fulfill the O-RAN Massive MIMO optimization use case.", "spec": "Use-Case-Requirements-R005"}
+{"question": "How do the O-RAN requirements define the multi-vendor interoperability goals for RAN sharing scenarios?", "spec": "Use-Case-Requirements-R005"}
+{"question": "What information elements must be parsed to handle the Quality of Experience (QoE) optimization use case?", "spec": "Use-Case-Requirements-R005"}
+{"question": "Explain the architectural requirements for dynamic resource allocation during sudden localized network overload.", "spec": "Use-Case-Requirements-R005"}
+{"question": "What data points are mandated for tracking channel condition variations in the context of cell-edge performance enhancement?", "spec": "Use-Case-Requirements-R005"}
+{"question": "How do use case guidelines restrict the maximum control loop latency allowed for non-real-time optimizations?", "spec": "Use-Case-Requirements-R005"}
+{"question": "What operational validation criteria are specified for verifying xApp-driven handoff optimizations?", "spec": "Use-Case-Requirements-R005"}
+{"question": "What is the functional split between Central Unit (CU) and Distributed Unit (DU) in the NG-RAN architecture?", "spec": "38.401"}
+{"question": "Which specific interface protocols connect the NG-RAN node (gNB) to the 5G Core Network functional entities?", "spec": "38.401"}
+{"question": "How is the F1 interface defined, split, and utilized between the gNB-CU and gNB-DU logical nodes?", "spec": "38.401"}
+{"question": "What are the structural characteristics and primary functions of the Xn interface between neighboring gNBs?", "spec": "38.401"}
+{"question": "Detail the separation of Control Plane (CP) and User Plane (UP) nodes within the gNB-CU architecture.", "spec": "38.401"}
+{"question": "Describe the internal radio protocol layer split between the gNB-CU and the gNB-DU entities.", "spec": "38.401"}
+{"question": "How does the gNB-CU-CP manage bearer context control across the E1 interface towards the gNB-CU-UP?", "spec": "38.401"}
+{"question": "What are the network control signaling flows for an intra-gNB handover involving DU changes?", "spec": "38.401"}
+{"question": "Explain the transport network layer arrangements for isolating user plane data streams within the NG-RAN nodes.", "spec": "38.401"}
+{"question": "How is resilience and multi-connectivity anchoring organized structurally inside the 3GPP NG-RAN architecture?", "spec": "38.401"}
+{"question": "What general principles and design philosophies govern the NG interface architecture?", "spec": "38.410"}
+{"question": "How does the NG interface independently support both control plane and user plane traffic components?", "spec": "38.410"}
+{"question": "What are the transport layer network addressing mechanisms and routing protocols used on the NG interface?", "spec": "38.410"}
+{"question": "Describe the logical connection model and synchronization primitives used across the NG-C interface link.", "spec": "38.410"}
+{"question": "What are the specific functional capabilities provided by the NG User Plane transport layer?", "spec": "38.410"}
+{"question": "How does the NG interface architecture handle multi-gNB deployment and routing flexibility to multiple AMFs?", "spec": "38.410"}
+{"question": "What are the failure recovery and SCTP link handling principles defined for NG interface control paths?", "spec": "38.410"}
+{"question": "Explain the security boundaries and network isolation layers expected on the NG transport interface.", "spec": "38.410"}
+{"question": "How is the division of labor between radio access transport and core network transport structured in 38.410?", "spec": "38.410"}
+{"question": "What parameters define the scalability limits of simultaneous PDU sessions across a single NG logical connection?", "spec": "38.410"}
+{"question": "How is a PDU Session Resource Setup Request message processed and validated via NGAP signaling?", "spec": "38.413"}
+{"question": "What are the structural steps, parameter blocks, and information elements for an Initial UE Message over NGAP?", "spec": "38.413"}
+{"question": "Describe the NGAP Handover Preparation and corresponding Handover Resource Allocation signaling procedures.", "spec": "38.413"}
+{"question": "How does the AMF initiate and track a UE Context Release Command towards the NG-RAN node?", "spec": "38.413"}
+{"question": "Explain the Paging procedure, radio cell lists, and broadcast parameters executed over the NG interface.", "spec": "38.413"}
+{"question": "What is the structural purpose and field breakdown of the NG Setup procedure between a gNB and an AMF?", "spec": "38.413"}
+{"question": "How does NGAP handle explicit Error Indication reporting and global interface Reset procedures?", "spec": "38.413"}
+{"question": "Which specific NGAP elementary procedure executes the Initial UE Context Setup between AMF and gNB?", "spec": "38.413"}
+{"question": "Detail the structural content fields and encryption settings of the Downlink NAS Transport message in NGAP.", "spec": "38.413"}
+{"question": "How are network slicing identifiers (S-NSSAI) integrated into the NGAP PDU session resource signaling?", "spec": "38.413"}
+{"question": "What is the overall logical E-UTRAN architecture and multi-node framing for legacy LTE networks?", "spec": "36.300"}
+{"question": "How do the LTE and NR architectures differ fundamentally regarding packet processing at the MAC layer?", "spec": "36.300"}
+{"question": "Describe the radio protocol stack architecture for the LTE user plane from PDCP to Physical layers.", "spec": "36.300"}
+{"question": "What is the role of the eNodeB in managing resource allocation for LTE carrier aggregation?", "spec": "36.300"}
+{"question": "How is LTE-WLAN Aggregation (LWA) structurally implemented, anchored, and managed at the radio layer?", "spec": "36.300"}
+{"question": "Detail the protocol structure and function of the S1 interface connecting eNodeB to the EPC core.", "spec": "36.300"}
+{"question": "How is mobility management executed during an inter-eNodeB X2 handover sequence?", "spec": "36.300"}
+{"question": "Describe the LTE framework for handling Multimedia Broadcast Multicast Services (MBMS) over air interfaces.", "spec": "36.300"}
+{"question": "What are the functional responsibilities of the eNodeB regarding radio admission control and policing?", "spec": "36.300"}
+{"question": "Explain the implementation of E-UTRAN Dual Connectivity (EN-DC) architecture with an LTE master node.", "spec": "36.300"}
+{"question": "What definitions are given for data analytics identifiers inside the NWDAF architecture?", "spec": "23.288"}
+{"question": "How does NWDAF handle the subscription of analytics information for a roaming UE?", "spec": "23.288"}
+{"question": "What parameters are defined for NWDAF to provide user plane latency analytics?", "spec": "23.288"}
+{"question": "Detail the interaction between NWDAF and the Network Repository Function (NRF) for target discovery.", "spec": "23.288"}
+{"question": "What specific triggers allow NWDAF to update an active analytics subscription payload?", "spec": "23.288"}
+{"question": "How does NWDAF collect application-layer data traffic metrics via the NEF?", "spec": "23.288"}
+{"question": "What structural schema governs the output of the Nnwdaf_AnalyticsSubscription service?", "spec": "23.288"}
+{"question": "Explain how NWDAF evaluates and reports device communication pattern analytics to the network.", "spec": "23.288"}
+{"question": "What parameter fields define the data context of a cell load analytics report in NWDAF?", "spec": "23.288"}
+{"question": "How are historical analytics data models leveraged inside the NWDAF training framework?", "spec": "23.288"}
+{"question": "What data schema models the application context relocation procedure inside ETSI MEC-003?", "spec": "MEC-003"}
+{"question": "Describe the functional interfaces between the MEC platform and the underlying Virtualization Infrastructure.", "spec": "MEC-003"}
+{"question": "How is edge platform security authenticated over the Mm3 reference point?", "spec": "MEC-003"}
+{"question": "Detail the deployment requirements for running containerized MEC applications inside a host framework.", "spec": "MEC-003"}
+{"question": "What structural definition governs MEC host selection during an application instantiation request?", "spec": "MEC-003"}
+{"question": "How does the MEC architecture coordinate resource scaling with external VNF managers?", "spec": "MEC-003"}
+{"question": "What role does the Customer Premises Equipment (CPE) play in the MEC enterprise architecture?", "spec": "MEC-003"}
+{"question": "Describe the logical control loops between the Multi-access Edge Orchestrator and the cloud infrastructure.", "spec": "MEC-003"}
+{"question": "How is multi-host app data forwarding handled inside the logical MEC architecture?", "spec": "MEC-003"}
+{"question": "What reference points handle platform configuration synchronization within a multi-MEC cluster?", "spec": "MEC-003"}
+{"question": "What is the structural format of the PLMN identity field in the MEC RNIS API?", "spec": "MEC-012"}
+{"question": "How does the RNIS API represent radio bearer configuration modifications in its JSON payloads?", "spec": "MEC-012"}
+{"question": "What query filters can be applied to isolate specific cell parameters in an RNIS GET request?", "spec": "MEC-012"}
+{"question": "Describe the data fields used to convey transmission power data over the RNIS interface.", "spec": "MEC-012"}
+{"question": "What is the structural schema for a 'S1BearerInfo' object in the ETSI MEC-012 standard?", "spec": "MEC-012"}
+{"question": "How are link-layer connectivity events parsed inside an RNIS streaming notification channel?", "spec": "MEC-012"}
+{"question": "What parameters define the 'ExpiryNotification' block for terminating RNIS active subscriptions?", "spec": "MEC-012"}
+{"question": "How are frequency channel identifiers mapped to human-readable indices in the RNIS schema?", "spec": "MEC-012"}
+{"question": "What structures represent the tracking area identity (TAI) fields within the RNIS payload data models?", "spec": "MEC-012"}
+{"question": "Explain the structural representation of the UE network access state within the RNIS service data object.", "spec": "MEC-012"}
+{"question": "How are application transport dependencies declared within the MEC-011 platform enablement models?", "spec": "MEC-011"}
+{"question": "What JSON fields are mandatory for registering a new service instance via the Mp1 reference point?", "spec": "MEC-011"}
+{"question": "Describe the data model defining a 'TrafficRule' object inside the MEC-011 specification.", "spec": "MEC-011"}
+{"question": "How does the MEC platform handle token verification during service registry queries via MEC-011?", "spec": "MEC-011"}
+{"question": "What schema represents the platform timing synchronization endpoints in the App Support API?", "spec": "MEC-011"}
+{"question": "Describe the structural properties of the 'DnsRule' data model inside the Mp1 application framework.", "spec": "MEC-011"}
+{"question": "How are application heartbeat frequencies negotiated and structured over the MEC-011 interface?", "spec": "MEC-011"}
+{"question": "What error codes are defined for a failed service registration on the Mp1 enablement interface?", "spec": "MEC-011"}
+{"question": "Detail the properties of the JSON schema payload for updating an application's current lifecycle state.", "spec": "MEC-011"}
+{"question": "How does MEC-011 formally define the communication interface data models for external consumption?", "spec": "MEC-011"}
+{"question": "What is the structure and configuration mechanics of the Service Data Adaptation Protocol (SDAP) in NR?", "spec": "38.300"}
+{"question": "How is radio link monitoring (RLM) organized and executed inside the NR architecture?", "spec": "38.300"}
+{"question": "Describe the protocol engine splits for handling emergency broadcast messages in the 5G RAN.", "spec": "38.300"}
+{"question": "How is localized multicasting handled within the 5G NR L2/L3 protocol architecture?", "spec": "38.300"}
+{"question": "What structural layers manage user plane scheduling control and transport block distribution?", "spec": "38.300"}
+{"question": "How is security key derivation and distribution mapped across the NR radio interface?", "spec": "38.300"}
+{"question": "Describe the control protocol interactions for managing inter-system handovers to legacy 4G systems.", "spec": "38.300"}
+{"question": "What mechanisms handle the configuration and validation of the integrated access and backhaul (IAB) nodes?", "spec": "38.300"}
+{"question": "Explain the user plane protocol handling during an active secondary cell group (SCG) change.", "spec": "38.300"}
+{"question": "How does the NR control architecture manage radio resource isolation for prioritized public safety slices?", "spec": "38.300"}
+{"question": "How does the UE evaluate candidate cells for selection during an out-of-coverage scanning procedure?", "spec": "38.304"}
+{"question": "What mathematical rules define the speed-dependent scaling factors for cell reselection timers?", "spec": "38.304"}
+{"question": "Describe the parameter tracking for calculating the Qqualmin offset value in cell selection equations.", "spec": "38.304"}
+{"question": "How is the cell reselection evaluation process structured for multi-frequency network deployment?", "spec": "38.304"}
+{"question": "What conditions force a UE to prioritize a cell based on specific network slicing availability in SIB3?", "spec": "38.304"}
+{"question": "Explain the cell reselection behavior of a UE when detecting an barred or unreserved tracking area status.", "spec": "38.304"}
+{"question": "What state metrics determine whether a UE can remain in the RRC_INACTIVE state without executing updates?", "spec": "38.304"}
+{"question": "How are paging groups mapped to specific sub-frames inside the discontinuous reception (DRX) framework?", "spec": "38.304"}
+{"question": "What structural filters prevent a UE from camp-on verification failures on non-public network cells?", "spec": "38.304"}
+{"question": "How does the UE process cell reselection parameters when operating under high-speed rail mobility profiles?", "spec": "38.304"}
+{"question": "What structural blocks define the IMS voice capabilities parameters inside a UE capability payload?", "spec": "38.306"}
+{"question": "How are fallback bands for inter-band carrier aggregation formally signaled in the UE capability transfer?", "spec": "38.306"}
+{"question": "What parameters track the maximum number of concurrent data radio bearers supported by a UE?", "spec": "38.306"}
+{"question": "How does a UE report its processing capabilities for multi-input multi-output codebooks?", "spec": "38.306"}
+{"question": "What structural capability parameters govern support for cross-carrier scheduling in NR?", "spec": "38.306"}
+{"question": "How are the UE processing times capability parameters (Capability 1 and Capability 2) defined?", "spec": "38.306"}
+{"question": "What parameter indicates a UE's capability to support dynamic switching between uplink MIMO and selection diversity?", "spec": "38.306"}
+{"question": "How are the maximum aggregation bandwidth profiles structural properties mapped for FR1?", "spec": "38.306"}
+{"question": "What field identifies if a UE supports high-order 256-QAM modulation on the uplink channel?", "spec": "38.306"}
+{"question": "How are feature dependencies structurally modeled inside the 3GPP UE capability framework?", "spec": "38.306"}
+{"question": "What MAC timers control the lifecycle of an active random access resource assignment?", "spec": "38.321"}
+{"question": "How does the MAC layer interpret and process a Backoff Indicator parameter from a RAR message?", "spec": "38.321"}
+{"question": "Describe the structural encoding and bit allocation for the Long BSR and Short BSR MAC control elements.", "spec": "38.321"}
+{"question": "What rules govern the transmission of a Configured Grant Confirmation MAC Control Element?", "spec": "38.321"}
+{"question": "How is the spacing and conflict management handled for multiple active scheduling requests at the MAC layer?", "spec": "38.321"}
+{"question": "Describe the MAC layer actions when an active cell group execution encounters a beam failure indication.", "spec": "38.321"}
+{"question": "What fields define the structure of the Single Entry PHR and Multiple Entry PHR MAC CEs?", "spec": "38.321"}
+{"question": "How does the MAC layer execute priority adjustments during a restricted logical channel resource mapping?", "spec": "38.321"}
+{"question": "What operational states trigger the generation of a padding BSR instead of a regular BSR element?", "spec": "38.321"}
+{"question": "Explain the timing window validation for processing an incoming Downlink Assignment on the PDCCH.", "spec": "38.321"}
+{"question": "How is the RLC transmission window updated after receiving an RLC Status PDU with NACK sequences?", "spec": "38.322"}
+{"question": "What structural fields are embedded inside an RLC AMD PDU header for 12-bit sequence numbers?", "spec": "38.322"}
+{"question": "Describe the behavior of an RLC UM entity when receiving out-of-sequence segments from lower layers.", "spec": "38.322"}
+{"question": "What processing states govern the advancement of the Rx Next highest state variable in RLC AM?", "spec": "38.322"}
+{"question": "Explain the structural interaction between the RLC layer and the MAC layer during a data grant pull.", "spec": "38.322"}
+{"question": "How does the RLC layer handle re-segmentable payloads when the available transport block size shrinks?", "spec": "38.322"}
+{"question": "What parameter choices define the configuration of the poll retransmission timer (t-PollRetransmit)?", "spec": "38.322"}
+{"question": "Describe the encoding structure of the SO (Segment Offset) fields within an RLC data segment.", "spec": "38.322"}
+{"question": "What actions occur at the receiver RLC AM entity if the reassembly window limits are breached?", "spec": "38.322"}
+{"question": "How does an RLC entity process a flush request generated during an active bearer reconfiguration?", "spec": "38.322"}
+{"question": "What state machines define the context synchronization of a ROHC decompressor in PDCP?", "spec": "38.323"}
+{"question": "Describe the sequence of processing actions for an incoming SDAP data packet at the PDCP layer.", "spec": "38.323"}
+{"question": "How does the PDCP layer handle key updating during an active intra-system network rekeying event?", "spec": "38.323"}
+{"question": "What structural encoding defines a PDCP Data PDU with an 18-bit sequence number allocation?", "spec": "38.323"}
+{"question": "Explain the flow of user plane data recovery during a PDCP entity re-establishment procedure.", "spec": "38.323"}
+{"question": "How does the PDCP layer handle integrity checking for control plane signaling radio bearers (SRBs)?", "spec": "38.323"}
+{"question": "What parameters govern the operation of the out-of-order delivery feature in the PDCP layer?", "spec": "38.323"}
+{"question": "Describe the structural encoding of the PDCP Status Report PDU used during a lossless handoff.", "spec": "38.323"}
+{"question": "How is duplication activation and deactivation managed dynamically for a split data bearer?", "spec": "38.323"}
+{"question": "What variables handle the tracking of the next expected PDCP SN in the receiver state machine?", "spec": "38.323"}
+{"question": "What structural blocks define the formatting of the RRCSetupRequest message inside the ASN.1 schema?", "spec": "38.331"}
+{"question": "How are system information blocks (SIBs) periodically updated using short-message indicators on paging?", "spec": "38.331"}
+{"question": "Detail the content structure, configurations, and use cases of System Information Block Type 2 (SIB2).", "spec": "38.331"}
+{"question": "Describe the configuration structure of the RadioLinkMonitoringConfig Information Element in RRC.", "spec": "38.331"}
+{"question": "What parameters define an A5 measurement event and what threshold rules guide its reporting execution?", "spec": "38.331"}
+{"question": "How is the conditional handover (CHO) configuration structured and executed inside the 5G RRC protocol?", "spec": "38.331"}
+{"question": "What structural fields inside the UEAssistanceInformation message allow power preference signaling?", "spec": "38.331"}
+{"question": "Detail the structural steps and parameters for executing an RRC security mode configuration sequence.", "spec": "38.331"}
+{"question": "How does the RRC layer structure the configuration parameters for a non-configurable grant Type 1?", "spec": "38.331"}
+{"question": "What structural definition guides the representation of network slicing parameters inside the RRCSetupComplete message?", "spec": "38.331"}
+{"question": "How are physical channel resources mapped for the transmission of the physical broadcast channel (PBCH)?", "spec": "38.211"}
+{"question": "Describe the mathematical sequence characteristics of the Primary Synchronization Signal (PSS) in 5G NR.", "spec": "38.211"}
+{"question": "What is the structural mapping and mathematical formula for generating the Secondary Synchronization Signal (SSS)?", "spec": "38.211"}
+{"question": "How are sounding reference signals (SRS) structurally mapped to resource elements across the uplink slot?", "spec": "38.211"}
+{"question": "Describe the mathematical sequence generation rules for the uplink DM-RS reference waveforms.", "spec": "38.211"}
+{"question": "What structural attributes define the frame boundaries and symbol durations for 240kHz subcarrier spacing?", "spec": "38.211"}
+{"question": "How are the time-frequency locations of the CSI-RS configurations defined on a per-port basis?", "spec": "38.211"}
+{"question": "Explain the physical channel structure and resource element mapping rules for the physical uplink shared channel.", "spec": "38.211"}
+{"question": "What sequence options are defined for the generation of the physical layer tracking reference signals?", "spec": "38.211"}
+{"question": "Describe the slot structure and physical mapping constraints for short PUCCH format designs.", "spec": "38.211"}
+{"question": "What rate matching mechanics are specified for mapping transport blocks onto fractional slot resources?", "spec": "38.212"}
+{"question": "Detail the channel coding flow and block nesting rules for the physical broadcast channel.", "spec": "38.212"}
+{"question": "How are code block segmentation tasks executed for large payloads targeting the PUSCH channel?", "spec": "38.212"}
+{"question": "What structural parameters define the bit interleaver stages for polar-coded control channels?", "spec": "38.212"}
+{"question": "Describe the structural layout and bit configuration of DCI Format 2_0 used for slot format indications.", "spec": "38.212"}
+{"question": "How is the padding and alignment handled when scrambling blocks are generated for LDPC encoders?", "spec": "38.212"}
+{"question": "What are the structural variations in DCI formatting when cross-carrier resource allocation is active?", "spec": "38.212"}
+{"question": "Explain the channel encoding operations applied to short block structures under uplink control scenarios.", "spec": "38.212"}
+{"question": "What are the exact structural fields and bit definitions for DCI Format 2_1 used for pre-emption?", "spec": "38.212"}
+{"question": "How does rate matching alter the output stream of a Polar encoder based on available resource element counts?", "spec": "38.212"}
+{"question": "How does the UE evaluate and compute the channel quality indicator (CQI) indices for multi-stream slots?", "spec": "38.213"}
+{"question": "What are the physical layer timing rules for the transition between active receive and transmit configurations?", "spec": "38.213"}
+{"question": "Describe the tracking procedures and control logic for monitoring Group-Common PDCCH channels.", "spec": "38.213"}
+{"question": "How does the UE determine its uplink transmit power for SRS transmissions based on target equations?", "spec": "38.213"}
+{"question": "What physical layer mechanisms govern the configuration and feedback loop for type-II codebooks?", "spec": "38.213"}
+{"question": "Explain the structural rules for slot configuration parsing when operating under dynamic TDD structures.", "spec": "38.213"}
+{"question": "How are resource allocation overlapping conflicts resolved between PDCCH candidates at the physical layer?", "spec": "38.213"}
+{"question": "Detail the physical layer interactions for validating a received Downlink Semi-Persistent Scheduling assignment.", "spec": "38.213"}
+{"question": "What control sequences guide the execution of spatial filtering operations for multi-beam monitoring?", "spec": "38.213"}
+{"question": "How does the physical layer manage the resource mapping for type-1 random access control paths?", "spec": "38.213"}
+{"question": "How does a UE interpret the precoding matrix indicator (PMI) references for physical transmissions?", "spec": "38.214"}
+{"question": "Describe the mathematical logic for mapping antenna ports to distinct physical layers in a PDSCH cluster.", "spec": "38.214"}
+{"question": "What are the physical layer rules for determining the transport block block error rate (BLER) target parameters?", "spec": "38.214"}
+{"question": "Explain the scheduling restrictions and resource mapping rules for multi-slot transmission bursts on PUSCH.", "spec": "38.214"}
+{"question": "How are resource efficiency parameters optimized when executing multi-stream transmissions over FR2 cells?", "spec": "38.214"}
+{"question": "Describe the structural interface control logic for triggering out-of-band sounding reference sweeps.", "spec": "38.214"}
+{"question": "What parameter governs the selection of transform precoding (DFT-s-OFDM) for uplink shared paths?", "spec": "38.214"}
+{"question": "How is the target energy per resource element (EPRE) calculated for various physical channel reference allocations?", "spec": "38.214"}
+{"question": "Describe the structural dependencies between active channel matrices and codebook subset restrictions.", "spec": "38.214"}
+{"question": "How does a UE process layer-to-port mapping variables during a multi-panel downlink stream event?", "spec": "38.214"}
+{"question": "What application layer protocols and framing structures define the Management Plane interface in Release 5?", "spec": "CUS-R005"}
+{"question": "Describe the NETCONF XML schema structures utilized for uploading beamforming tables over the fronthaul.", "spec": "CUS-R005"}
+{"question": "How are real-time alarm reporting metrics structured inside the O-RU management plane layer?", "spec": "CUS-R005"}
+{"question": "What configuration parameters handle the transport delay compensation calibrations in CUS-R005?", "spec": "CUS-R005"}
+{"question": "Detail the formatting of the section description headers for advanced spatial streaming controls in CUS-Plane.", "spec": "CUS-R005"}
+{"question": "How does the CUS-Plane map physical resource block constraints into the open fronthaul data fields?", "spec": "CUS-R005"}
+{"question": "What message parameters coordinate the activation of low-power sleep modes in an O-RU over the fronthaul?", "spec": "CUS-R005"}
+{"question": "Describe the structural validation of the cyclic prefix length properties within the eCPRI framing layer.", "spec": "CUS-R005"}
+{"question": "How are transport stream identification tags (VLAN IDs) integrated into the CUS data transmission profiles?", "spec": "CUS-R005"}
+{"question": "What structural controls manage the transmission window sizes for multi-carrier IQ streams over the fronthaul?", "spec": "CUS-R005"}
+{"question": "What specific formatting rules govern the creation of a 'RICControlRequest' payload within E2SM-RC-R005?", "spec": "E2SM-RC-R005"}
+{"question": "How does E2SM-RC-R005 structure the message schemas for transmitting radio resource utilization counters?", "spec": "E2SM-RC-R005"}
+{"question": "Describe the structural composition of the 'RANParameter-Item' block inside the E2SM-RC specification.", "spec": "E2SM-RC-R005"}
+{"question": "What data elements handle the injection of targeted neighboring cell lists for load balancing optimizations?", "spec": "E2SM-RC-R005"}
+{"question": "How are network slicing runtime state indicators encapsulated within an E2SM-RC service message?", "spec": "E2SM-RC-R005"}
+{"question": "Detail the validation parameters for processing an incoming RIC Control Ack message under E2SM-RC-R005.", "spec": "E2SM-RC-R005"}
+{"question": "What structural schema choices define the lookahead window indicators within the E2SM-RC trigger filters?", "spec": "E2SM-RC-R005"}
+{"question": "How are the beam configurations parameters exposed and updated via the E2SM-RC control structures?", "spec": "E2SM-RC-R005"}
+{"question": "Describe the formatting of a UE identity mapping table within an E2SM-RC telemetry data model.", "spec": "E2SM-RC-R005"}
+{"question": "What structural rules prevent conflicting parameter injections when modifying cell-level parameters over E2SM-RC?", "spec": "E2SM-RC-R005"}
+{"question": "What JSON schemas govern the definition of A1 Policy Status notifications in Release 5?", "spec": "A1TD-R005"}
+{"question": "How are policy execution block scopes mapped to individual network slice instances within the A1 Type Definitions?", "spec": "A1TD-R005"}
+{"question": "Describe the formatting structure for an A1 policy target block representing specific geographic areas.", "spec": "A1TD-R005"}
+{"question": "What error validation rules are enforced when structural boundaries are crossed inside an A1TD parameter block?", "spec": "A1TD-R005"}
+{"question": "How are multi-level priority targets represented inside an A1 Policy Type declaration file?", "spec": "A1TD-R005"}
+{"question": "Detail the structural format of the metadata headers used for tracking A1 transaction sequencing.", "spec": "A1TD-R005"}
+{"question": "What schema attributes support the transfer of continuous monitoring metrics inside an A1 enrichment payload?", "spec": "A1TD-R005"}
+{"question": "How does the A1TD specification represent cell capacity prediction thresholds within its data models?", "spec": "A1TD-R005"}
+{"question": "Describe the JSON properties used to signify immediate termination of an active A1 policy schema.", "spec": "A1TD-R005"}
+{"question": "What structural field mappings handle the conversion of application metrics into raw A1 policy target limits?", "spec": "A1TD-R005"}
+{"question": "What information elements define the structural composition of the 'RICactionDefinition' block in E2AP-R004?", "spec": "E2AP-R004"}
+{"question": "Describe the transactional rules for handling an E2 Reset Request message from an E2 node in Release 4.", "spec": "E2AP-R004"}
+{"question": "How are transaction collisions resolved when the Near-RT RIC and E2 Node transmit configuration updates simultaneously?", "spec": "E2AP-R004"}
+{"question": "What specific structural fields define the 'RICsubsequentAction' configuration block in E2AP-R004?", "spec": "E2AP-R004"}
+{"question": "Explain the ASN.1 structure and message mapping for an incoming E2 Subscription Response.", "spec": "E2AP-R004"}
+{"question": "What parameter choices define the global E2 Node Identifier block inside an E2AP control header?", "spec": "E2AP-R004"}
+{"question": "How does E2AP-R004 format and report critical diagnostics info via the Error Indication primitive?", "spec": "E2AP-R004"}
+{"question": "Describe the structural difference between synchronous and asynchronous control actions inside the E2AP model.", "spec": "E2AP-R004"}
+{"question": "What structural validation rules control the extraction of the RIC Request ID from an E2 frame?", "spec": "E2AP-R004"}
+{"question": "How does the E2AP-R004 spec represent the cause mapping when an E2 subscription setup fails?", "spec": "E2AP-R004"}
+{"question": "What structural patterns handle internal data sharing between the Non-RT RIC and the SMO orchestration framework?", "spec": "Non-RT-RIC-ARCH-R004"}
+{"question": "How is the data ingestion lifecycle managed inside the Non-RT RIC framework for high-volume telemetry streams?", "spec": "Non-RT-RIC-ARCH-R004"}
+{"question": "Describe the logical mapping of the R1 service discovery mechanisms within a multi-vendor Non-RT RIC deployment.", "spec": "Non-RT-RIC-ARCH-R004"}
+{"question": "What architectural blocks handle the translation of global optimization goals into long-term configuration loops?", "spec": "Non-RT-RIC-ARCH-R004"}
+{"question": "How are third-party analytics models instantiated and sandboxed inside the Non-RT RIC platform?", "spec": "Non-RT-RIC-ARCH-R004"}
+{"question": "Detail the interface dependencies between the Non-RT RIC optimization loops and the cloud storage layers.", "spec": "Non-RT-RIC-ARCH-R004"}
+{"question": "What security auditing services are mandated for tracking rApp behavior inside Non-RT-RIC-ARCH-R004?", "spec": "Non-RT-RIC-ARCH-R004"}
+{"question": "Describe the data abstraction layers that isolate rApps from direct network infrastructure interactions.", "spec": "Non-RT-RIC-ARCH-R004"}
+{"question": "How does the architecture prevent race conditions when multiple rApps target intersecting network nodes?", "spec": "Non-RT-RIC-ARCH-R004"}
+{"question": "What functional blocks govern the lifecycle state tracking of active policy modules inside the Non-RT RIC?", "spec": "Non-RT-RIC-ARCH-R004"}
+{"question": "How does the Near-RT RIC platform optimize internal message routing latency between independent xApps?", "spec": "RICARCH-R005"}
+{"question": "Describe the structural specification of the Shared Data Layer (SDL) notification service in Release 5.", "spec": "RICARCH-R005"}
+{"question": "What architectural modules manage southbound E2 stream balancing inside the Near-RT RIC platform?", "spec": "RICARCH-R005"}
+{"question": "How are memory allocation domains separated between high-priority xApps and lower-priority platform services?", "spec": "RICARCH-R005"}
+{"question": "Detail the internal health check and failover orchestration mechanisms for xApps in RICARCH-R005.", "spec": "RICARCH-R005"}
+{"question": "What database engines are validated for back-ending the Shared Data Layer under tight timing targets?", "spec": "RICARCH-R005"}
+{"question": "Describe the internal security isolation profiles for xApps executing raw payload conversions.", "spec": "RICARCH-R005"}
+{"question": "How is resource scheduling managed within the RIC platform to prevent xApp message starvation?", "spec": "RICARCH-R005"}
+{"question": "What structural interface exposes xApp internal states to external management systems inside the RIC framework?", "spec": "RICARCH-R005"}
+{"question": "Explain the architectural pipeline for validating incoming E2 indications before routing them to the xApp layer.", "spec": "RICARCH-R005"}
+{"question": "What interface protocols support the ingestion of massive raw performance management data logs into the SMO?", "spec": "SMO-ARCH-R005"}
+{"question": "Describe the orchestration workflows defined in SMO-ARCH-R005 for scaling virtualized O-DU instances.", "spec": "SMO-ARCH-R005"}
+{"question": "How does the SMO architecture handle security credential provisioning for newly joined O-RAN nodes?", "spec": "SMO-ARCH-R005"}
+{"question": "Detail the interface mapping between the SMO inventory tracker and external multi-cloud orchestration endpoints.", "spec": "SMO-ARCH-R005"}
+{"question": "What structural modules handle the generation and tracking of network topology graphs inside the SMO?", "spec": "SMO-ARCH-R005"}
+{"question": "How are cross-domain validation policies structured inside the SMO intent-based orchestration engine?", "spec": "SMO-ARCH-R005"}
+{"question": "Describe the log forwarding and central aggregation design patterns defined in SMO-ARCH-R005.", "spec": "SMO-ARCH-R005"}
+{"question": "What structural workflows dictate the onboarding of multi-vendor descriptor packages into the SMO repository?", "spec": "SMO-ARCH-R005"}
+{"question": "How does the SMO isolate orchestration resources dedicated to network security monitoring?", "spec": "SMO-ARCH-R005"}
+{"question": "Explain the interaction mapping between the SMO O1 interface listener and the internal event correlation engine.", "spec": "SMO-ARCH-R005"}
+{"question": "What operational performance bounds are established for verifying the O-RAN dynamic slice allocation use case?", "spec": "Use-Case-Requirements-R005"}
+{"question": "Describe the operational telemetry targets required to validate an active indoor localization use case.", "spec": "Use-Case-Requirements-R005"}
+{"question": "What network parameter constraints govern the execution of the multi-vendor RAN slicing use case?", "spec": "Use-Case-Requirements-R005"}
+{"question": "Detail the telemetry tracking constraints defined for managing vehicular communication optimization use cases.", "spec": "Use-Case-Requirements-R005"}
+{"question": "How do the Release 5 guidelines handle conflicting optimization targets between energy saving and QoS assurance?", "spec": "Use-Case-Requirements-R005"}
+{"question": "What operational fields must be tracked to execute automated root-cause analysis use cases in O-RAN?", "spec": "Use-Case-Requirements-R005"}
+{"question": "Explain the validation framework metrics for checking the efficiency of a massive MIMO beamforming optimization.", "spec": "Use-Case-Requirements-R005"}
+{"question": "What telemetry definitions are required to support the automated cell outage detection and compensation use case?", "spec": "Use-Case-Requirements-R005"}
+{"question": "How are target data rate profiles modeled within the user-plane performance optimization use case guidelines?", "spec": "Use-Case-Requirements-R005"}
+{"question": "What structural bounds limit the maximum data analysis aggregation periods for long-term optimization use cases?", "spec": "Use-Case-Requirements-R005"}
+{"question": "What structural parameters govern the establishment of user plane tunnels across the F1-U interface?", "spec": "38.401"}
+{"question": "How does the gNB-CU architecture manage the association between multiple distributed units over F1-C?", "spec": "38.401"}
+{"question": "Describe the signaling flow for handling an explicit bearer context modification sequence within the CU split architecture.", "spec": "38.401"}
+{"question": "What structural mechanisms handle flow control optimization for downlink user plane traffic over the F1-U interface?", "spec": "38.401"}
+{"question": "How is security termination managed across the logical splits of a multi-node gNB architecture?", "spec": "38.401"}
+{"question": "Explain the role of the E1 interface in isolating control plane logic from scalable user plane hardware blocks.", "spec": "38.401"}
+{"question": "What network elements track the availability and loading of physical resources across separate DU nodes?", "spec": "38.401"}
+{"question": "Describe the operational procedures for migrating an active UE context between separate DUs within the same CU node.", "spec": "38.401"}
+{"question": "How are global gNB configurations synchronized across the CU and DU blocks during node initialization?", "spec": "38.401"}
+{"question": "What parameters manage the establishment of Xn user plane tunnels for data forwarding during handovers?", "spec": "38.401"}
+{"question": "What transport layer protocols define the mandatory requirements for NG Control Plane connections?", "spec": "38.410"}
+{"question": "How is multi-homing support implemented via SCTP configurations across the NG interface?", "spec": "38.410"}
+{"question": "Describe the interface isolation rules that protect NG-C control paths from user plane volume spikes.", "spec": "38.410"}
+{"question": "What structural mechanisms handle configuration synchronization errors between the gNB and the AMF?", "spec": "38.410"}
+{"question": "Explain the operational principles for handling unexpected SCTP path failures across an active NG-C link.", "spec": "38.410"}
+{"question": "How does the NG interface handle graceful shutdown procedures during planned node maintenance windows?", "spec": "38.410"}
+{"question": "What transport-level variables track the quality of service mappings across the NG User Plane path?", "spec": "38.410"}
+{"question": "Describe the structural dependencies between the NG transport network layer and the underlying IP routing tables.", "spec": "38.410"}
+{"question": "How are interface identification indices allocated to separate logical links operating on the same physical wire?", "spec": "38.410"}
+{"question": "What structural layers handle payload framing for network management commands across the NG link?", "spec": "38.410"}
+{"question": "What information elements define the structural configuration of the 'PDU-Session-Resource-Modify-Request' inside NGAP?", "spec": "38.413"}
+{"question": "How does NGAP handle the signaling and tracking of security parameter distribution via the Initial Context Setup Request?", "spec": "38.413"}
+{"question": "Describe the parameter structures used for conveying location reporting information inside an NGAP stream.", "spec": "38.413"}
+{"question": "What structural fields handle the registration and tracking of trace activation setups inside an NGAP payload?", "spec": "38.413"}
+{"question": "How are emergency fallback indicators mapped inside the NGAP bearer setup control channels?", "spec": "38.413"}
+{"question": "Detail the structural format and message contents of the 'UE-Radio-Capability-Check-Request' in NGAP.", "spec": "38.413"}
+{"question": "What configuration attributes handle the transfer of cell traffic load information over the NGAP interface?", "spec": "38.413"}
+{"question": "Describe the structural difference between class-1 and class-2 elementary procedures inside the NGAP specification.", "spec": "38.413"}
+{"question": "How does an AMF communicate specific network slice resource constraints to the gNB using NGAP signaling?", "spec": "38.413"}
+{"question": "What structural parameters govern the execution of global node configuration updates across the NGAP interface?", "spec": "38.413"}
+{"question": "How does the LTE eNodeB coordinate physical radio block mapping when executing carrier aggregation?", "spec": "36.3"}
+{"question": "Describe the protocol engine mechanics for executing an intra-LTE cell handover sequence at the L2/L3 boundary.", "spec": "36.3"}
+{"question": "What structural attributes define the operation of the legacy LTE Medium Access Control sublayer?", "spec": "36.3"}
+{"question": "How is radio link monitoring handled inside legacy LTE systems compared to the NR framework?", "spec": "36.3"}
+{"question": "What interface protocols support the orchestration of public warning systems across an E-UTRAN deployment?", "spec": "36.3"}
+{"question": "Describe the logical mapping of EPS bearers onto specific E-UTRAN data radio bearers inside the eNodeB.", "spec": "36.3"}
+{"question": "How are the discontinuous reception cycles configured for an LTE UE operating in the connected state?", "spec": "36.3"}
+{"question": "What structural layers manage packet header compression tasks within a legacy LTE radio channel?", "spec": "36.3"}
+{"question": "Explain the architectural requirements for anchoring an LTE secondary cell group under multi-system layouts.", "spec": "36.3"}
+{"question": "What parameters manage the scheduling of system information transmissions across an E-UTRAN cell interface?", "spec": "36.3"}

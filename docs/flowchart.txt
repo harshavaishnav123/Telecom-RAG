@@ -1,0 +1,38 @@
+
+               KPI Stream<---- 1 type of model input (A kpi file as Input)
+                    │
+            XGBoost Classifier
+                    │
+            Anomaly Detected? (Yes/No)
+                    │
+     ┌──────────────┴──────────────┐
+     ▼ (Yes)                       ▼ (No)
+SHAP Explainer                  Log Normal / Stop--->Here as there no no anomaly from kpi file we will print that state,ment only
+(Extracts top 4 local drivers dynamcally for each kpi file based on xhboost feature values)
+     │
+     ▼
+Dynamic KPI Description
+     │
+     ▼
+RCA Query Generator<--- By LLM we will generate dynamic description for each kpi files based on these top4 features values
+     │
+     |
+     |
+     |
+     |                                      User Query<-- 2nd type of model input( A Telecom query which you have gave from query box)
+     |                                      |
+     ├───────────────────┼───────────────────┐
+     ▼                   ▼                   ▼
+telecom_rca     +   telecom_3gpp  +       telecom_oran <====== We have multiple collections of Data where each collections contains their corresponding collection of data.                                                               
+     │                   │                   │                  (data_plane,multi_access_edge,l2-l3-protocol-logic,physical_mac_layer,o_ran_kpi,o_ran_management,ran_architecture)
+     └──────────────┬────┴───────────────────┘
+                    ▼
+             Hybrid Retrieval (Dense _BM25 ) with dynamic collection selection based query
+                    │
+            BGE-Reranker-v2-M3 
+                    │
+               Top-8 Chunks
+                    │
+               Qwen-2.5-7B-Instruct model 
+                    │
+             Root Cause Analysis with description( output on display) 

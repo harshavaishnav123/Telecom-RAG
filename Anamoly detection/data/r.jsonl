@@ -1,0 +1,10 @@
+{"question": "Degraded uplink radio quality with high buffer occupancy and throughput reduction, indicating potential interference or mobility issues affecting link adaptation and resource allocation."}
+{"question": "Degraded uplink radio quality with high buffer occupancy leading to increased MAC scheduling requests and reduced throughput."}
+{"question": "Throughput degradation observed with high uplink radio quality but low channel quality indication and frequent buffer status reporting."}
+{"question": "Throughput degradation observed with high BSR and low SNR, indicating potential issues with uplink radio quality and channel conditions."}
+{"question": "Uplink throughput degradation with high buffer status reporting and low signal-to-noise ratio, indicating potential radio link performance issues under cell edge conditions."}
+{"question": "Degraded uplink radio quality with high buffer occupancy leading to inefficient MAC scheduling and reduced uplink throughput."}
+{"question": "Throughput degradation observed at cell edge conditions with high BSR and moderate uplink rate, indicating potential channel quality issues and inefficient MAC scheduling."}
+{"question": "Throughput degradation observed at cell edge conditions with high BSR and SNR offsets indicating potential issues in uplink radio quality and channel conditions."}
+{"question": "Throughput degradation observed at cell edge conditions with degraded channel quality and increased buffer status reporting."}
+{"question": "Throughput degradation observed with high uplink throughput and low channel quality, indicating potential link adaptation issues or radio resource congestion."}

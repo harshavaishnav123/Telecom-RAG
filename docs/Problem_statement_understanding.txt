@@ -1,0 +1,23 @@
+# We are creating an AI assistant for Telecom RAN engineers that can:
+
+# Understand telecom specifications (3GPP, O-RAN)
+# Retrieve correct technical information from telecom chunks
+# Explain telecom issues by query/kpi data with alarms
+# Help in root cause analysis (RCA) from KPI data
+# Detect anomalies
+# suggest optimization actions
+# cite sources with retrived chunks.
+
+
+### Our LLM should:
+
+# Retrieve relevant telecom knowledge from 3GPP,ORAN and MEC data
+# Understand the query and kpi data
+# we need to do RAG operation step-by-step.
+# we need to produce explainable answers
+
+###Our RAG system should automate all these tasks:
+
+Need to do 2 types of tasks:
+# i) Query → Retrieval → Answer
+# ii) KPI data ->dynamic query generation ->Retrieval->Answer.

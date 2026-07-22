@@ -1,0 +1,58 @@
+## TeleQnA ---> conatins 10000 mcq from 3GPP release documents,Telecom standards and IEEE platform 
+ 
+ Format:
+ question 2045: {
+		"question": "What is the maximum number of eigenmodes that the MIMO channel can support? 
+                (nt is the number of transmit antennas, nr is the number of receive antennas)",
+		"option 1": "nt",
+		"option 2": "nr",
+		"option 3": "min(nt, nr)",
+		"option 4": "max(nt, nr)",
+		"answer": "option 3: min(nt, nr)",
+		"explanation": "The maximum number of eigenmodes that the MIMO channel can support 
+		is min(nt, nr).",
+		"category": "Research publications"
+                } 
+ # Why It Matters,This dataset evaluates:
+ # telecom understanding
+ # retrieval quality
+ # reasoning quality
+ # Expected Usage
+
+# How You Use It
+i) Evaluation: Suppose your RAG retrieves, TS 38.331 Section and LLM answers.
+
+Compare answer with:TeleQnA Ground Truth and Measure--> Accuracy
+
+# O-RAN--> Contains Logs,Alarms,Performance Metrics,KPIs
+
+timestamp,cell_id,prb_utilization,throughput,latency,packet_loss Purpose
+
+Used for:
+Anomaly Detection
+Root Cause Analysis (RCA)
+Optimization
+
+our system:
+Possible Congestion from kpi data
+
+How It Fits:
+O-RAN Data
+        ↓
+Anomaly Detector
+        ↓
+Detected Issue
+        ↓
+RAG retrieves related telecom docs
+        ↓
+LLM explains cause
+
+This becomes:RCA Pipeline
+
+## 3GPP Specifications:This is the MOST IMPORTANT dataset.
+
+This becomes your:Knowledge Base Contains:
+                                         TS 38.331
+                                         TS 38.300
+                                         TS 38.321
+                                         TS 38.401
