@@ -119,18 +119,18 @@ Vector Database (Qdrant)
 
 # Project Structure
 
-Telecom Project/
+Telecom-Project/
 │
 ├── app/
-│   ├── app.py                 # Streamlit frontend
-│   ├── server.py              # Backend server
-│   ├── query_gen.py           # RCA query generation
-│   └── query_retrival.py      # Hybrid retrieval pipeline
+│   ├── app.py                      # Streamlit frontend
+│   ├── server.py                   # Backend server
+│   ├── query_gen.py                # RCA query generation
+│   └── query_retrival.py           # Hybrid retrieval pipeline
 │
 ├── Data/
 │   ├── 3GPP/
 │   ├── O-RAN/
-|   ├── data/
+│   ├── data/
 │   ├── vocabulary/
 │   └── random/
 │
@@ -144,19 +144,17 @@ Telecom Project/
 │   └── final/
 │
 ├── docs/
-│   ├── Dataset understanding.txt
+│   ├── Dataset_understanding.txt
 │   └── Problem_statement_understanding.txt
-|
 │
-├── Anamoly detection/
+├── Anomaly_detection/
 │   ├── data/
-│   ├── pickle files/
+│   ├── pickle_files/
 │   ├── data_preprocessing_and_classifier.ipynb
 │   ├── KPI_query_gen_testing.py
 │   └── rough.py
 │
 ├── requirements.txt
-│
 └── flowchart.txt
 
 ---
