@@ -119,6 +119,7 @@ Vector Database (Qdrant)
 
 # Project Structure
 
+```text
 Telecom-Project/
 │
 ├── app/
@@ -156,6 +157,7 @@ Telecom-Project/
 │
 ├── requirements.txt
 └── flowchart.txt
+```
 
 ---
 
