@@ -88,7 +88,7 @@ The system supports two different workflows:
 ---
 
 ### Offline Knowledge Base Construction
-'''text
+```text
 3GPP Documents
         │
         V
@@ -114,7 +114,7 @@ Embedding Generation (BGE)
         |
         V
 Vector Database (Qdrant)
-'''
+```
 ---
 
 # Project Structure
@@ -479,7 +479,7 @@ The results show that the system correctly answered **62 out of 100 questions**,
 ## End-to-End RAG
 
 The complete pipeline consists of:
-'''text
+```text
 User Query
       │
       ▼
@@ -493,7 +493,7 @@ Qwen-2.5-7B-Instruct
       │
       ▼
 Root Cause Analysis
-'''
+```
 The generated responses provide:
 
 - Accurate telecom reasoning
