@@ -1,6 +1,6 @@
 # Telecom RAG: Intelligent Root Cause Analysis for Radio Access Networks
 
-> An AI-powered Retrieval-Augmented Generation (RAG) framework for Telecom Networks that combines anomaly detection, hybrid document retrieval, and Large Language Models to perform intelligent Root Cause Analysis (RCA).
+An AI-powered Retrieval-Augmented Generation (RAG) framework for Telecom Networks that combines anomaly detection, hybrid document retrieval, and Large Language Models to perform intelligent Root Cause Analysis (RCA).
 
 ---
 
@@ -90,27 +90,35 @@ The system supports two different workflows:
 ### Offline Knowledge Base Construction
 
 3GPP Documents
+
         │
         V
 O-RAN Documents
+
         │
         V
 Telecom Vocabulary
+
         │
         V
 RCA Reports
+
         │
         V
 Document Parsing
+
         |
         V
 Cleaning & Preprocessing
+
         |
         V
 Chunking
+
         |
         V
 Embedding Generation (BGE)
+
         |
         V
 Vector Database (Qdrant)
@@ -480,15 +488,19 @@ The results show that the system correctly answered **62 out of 100 questions**,
 The complete pipeline consists of:
 
 User Query
+
       │
       ▼
 Hybrid Retrieval
+
       │
       ▼
 BGE Reranker
+
       │
       ▼
 Qwen-2.5-7B-Instruct
+
       │
       ▼
 Root Cause Analysis
@@ -531,6 +543,7 @@ The generated responses provide:
 # Authors
 
 **Vasamsetti Nihal Tej**
+
 **Velineni Harshavaishnav**
 
 ---
