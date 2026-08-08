@@ -129,12 +129,14 @@ Vector Database (Qdrant)
 
 Telecom Project/
 │
+
 ├── app/
 │   ├── app.py                 # Streamlit frontend
 │   ├── server.py              # Backend server
 │   ├── query_gen.py           # RCA query generation
 │   └── query_retrival.py      # Hybrid retrieval pipeline
 │
+
 ├── Data/
 │   ├── 3GPP/
 │   ├── O-RAN/
@@ -142,20 +144,24 @@ Telecom Project/
 │   ├── vocabulary/
 │   └── random/
 │
+
 ├── notebooks/
 │   ├── embed.py
 │   ├── chunking_and_preprocessing.py
 │   ├── teleqna_analysis.ipynb
 │   └── unzipping.py
 │
+
 ├── evaluation/
 │   └── final/
 │
+
 ├── docs/
 │   ├── Dataset understanding.txt
 │   └── Problem_statement_understanding.txt
 |
 │
+
 ├── Anamoly detection/
 │   ├── data/
 │   ├── pickle files/
@@ -163,8 +169,10 @@ Telecom Project/
 │   ├── KPI_query_gen_testing.py
 │   └── rough.py
 │
+
 ├── requirements.txt
 │
+
 └── flowchart.txt
 
 ---
