@@ -88,41 +88,33 @@ The system supports two different workflows:
 ---
 
 ### Offline Knowledge Base Construction
-
+'''text
 3GPP Documents
-
         │
         V
 O-RAN Documents
-
         │
         V
 Telecom Vocabulary
-
         │
         V
 RCA Reports
-
         │
         V
 Document Parsing
-
         |
         V
 Cleaning & Preprocessing
-
         |
         V
 Chunking
-
         |
         V
 Embedding Generation (BGE)
-
         |
         V
 Vector Database (Qdrant)
-
+'''
 ---
 
 # Project Structure
@@ -487,25 +479,21 @@ The results show that the system correctly answered **62 out of 100 questions**,
 ## End-to-End RAG
 
 The complete pipeline consists of:
-
+'''text
 User Query
-
       │
       ▼
 Hybrid Retrieval
-
       │
       ▼
 BGE Reranker
-
       │
       ▼
 Qwen-2.5-7B-Instruct
-
       │
       ▼
 Root Cause Analysis
-
+'''
 The generated responses provide:
 
 - Accurate telecom reasoning
